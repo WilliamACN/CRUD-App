@@ -5,6 +5,7 @@ Como primer paso se debe poner en marcha la base de datos.Para esto, abra una co
 
 /*Encender el server*/
 Para poner el marcha el server se debe abrir una nueva consola y ejecutar el siguiente comando: npm run dev.
+Puede consultar todos los datos almacenados en la base de datos accediendo a la ruta: http://localhost:3000/empleados 
 
 /*Interfaz*/
 Para poner en marcha la interfas se debe ingresar a la carpeta "frontend", abra una nueva consola y ejecute el siguiente comando: cd frontend
