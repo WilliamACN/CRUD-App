@@ -1,0 +1,20 @@
+¿Como ejecutar?
+
+/*Activar la Base de Datos*/
+Como primer paso se debe poner en marcha la base de datos.Para esto, abra una consola y escriba el comando: mongod.
+
+/*Encender el server*/
+Para poner el marcha el server se debe abrir una nueva consola y ejecutar el siguiente comando: npm run dev.
+
+/*Interfaz*/
+Para poner en marcha la interfas se debe ingresar a la carpeta "frontend", abra una nueva consola y ejecute el siguiente comando: cd frontend
+como segundo paso ejecute el siguiente comando: ng serve.
+
+Interfaz.
+
+Una vez dentro de l ainterfaz, en la parte izquierda podra ver un formulario, en cual podra poner los respectivos datos(cedula,name,department,phone,salary).
+Al final de este formulario encontrará dos botones, enviar y limpiar, el botno enviar se encarga de almacenar los datos sumistrados del formulario en la base de datos,
+y en una tabla que se encuentra a su derecha para poder visualizar los datos de una forma mas amigable. El boton limiar se encarga de resetear el formulario.
+
+En la parte derecha se encuentra una tabla, en la que se pueden visualizar los datos que estan almacenados en la base de datos, adicional la tabla tiene una columna llamada "Actions"
+la cual tiene dos iconos, uno para editar los datos y el otro para eliminar un dato.
